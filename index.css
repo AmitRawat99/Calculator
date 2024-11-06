@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style-type: none;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .calucatorColor {
+    background: #3a4452;
+    border-radius: 20px;
+  }
+  .firstRow{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+  }
+  .firstRow input {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1),
+      -5px 5px 15px rgb(2055, 0, 0, 0.2);
+    margin: 10px;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .firstRow input:active{
+    background-color: #6849aa;
+  }
+  #firstInput {
+    width: 100%;
+    height: 12vh;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor:none;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 22px;
+    background-color: #3a4452;
+    padding: 0 0 0 20px;
+  }
+  #first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #equal{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff5e01;
+    box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1),
+    -5px 5px 15px rgb(2055, 0, 0, 0.2);
+    padding: 20px;
+  }
+  #equal:active{
+    background-color: black;
+    color: white;
+  }
